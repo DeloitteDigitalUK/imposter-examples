@@ -1,0 +1,7 @@
+plugin: rest
+
+resources:
+- method: get
+  path: /example
+  response:
+    staticFile: data.csv
